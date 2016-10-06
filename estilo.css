@@ -1,0 +1,12 @@
+body
+{
+   background-color: #F7FA8E;
+}
+input
+{
+    text-transform: uppercase;
+    cursor:pointer;
+    border-color:#0c060d;
+    background-color: #cd8fbe;
+}
+
