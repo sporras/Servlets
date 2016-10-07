@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="JS/FuncionesCalculadora.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <form method="POST" action='ServletOperaciones'>
+            <center>CALCULADORA<br><br>
+        Introduce el Primer numero<input type="number" name="num1" placeholder="numero 1" required/><br><br>
+        Indica la operacion <input type="text" id="operacion" readonly="readonly" /><br><br>
+        Introduce el  Segundo numero <input type="number" name="num2" placeholder="numero 2" required/><br><br>
+        <input type='button' name='suma' value='+' onclick="asignar('+')"/>
+        <input type='button' name='resta' value='-' onclick="asignar('-')"/>
+        <input type='button' name='multiplicacion' value='*' onclick="asignar('*')"/>
+        <input type='button' name='division' value='/' onclick="asignar('/')"/>
+        <input type="submit" name="enviar" value="Enviar Resultado" />
+        </center>
+        </form>
+    </body>
+</html>
